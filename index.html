@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expenses Tracker Chart Component</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <main class="container">
+      <div class="top">
+        <div class="balance">
+          <p>My balance</p>
+          <h2 class="total_balance">$<span class="balance_amount">921.48</span></h2>
+        </div>
+        <div class="logo">
+          <img src="./img/logo.svg" alt="">
+        </div>
+      </div>
+      <div class="center">
+        <h2 class="weekly_spending">Spending - Last 7 days</h2>
+        <div class="chart_container" height="100px">
+          
+        </div>
+        <div class="details">
+          <div class="monthly">
+            <p>Total this month</p>
+            <h1 class="monthly_spending">$<span class="monthly_amount">478.31</span></h1>
+          </div>
+          <div class="last_month">
+            <h4 class="last_amount">+2.4%</h4>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
