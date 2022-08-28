@@ -13,7 +13,7 @@ function getData(data) {
     const height = 250 / 100 * Math.floor(item.amount);
     chartContainer.innerHTML += `
       <div class="chart_item">
-      <div class="chart_indicator" style="background-color: ${currentDay === currentIndex && bgColor}; height:${height}px;">            
+      <div class="chart_indicator" style="height:${height}px;">            
           <p class="daily_spending">$<span class="daily_amount">${item.amount}</span></p>
         </div>
         <p class="weekday">${item.day}</p>
